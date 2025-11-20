@@ -18,8 +18,39 @@ Just for fun, you can also draw your own handwritten digits and pass them to the
 
 Then use the provided `bmp_to_bin.py` python script to convert your bmp to bin file. Make sure that the outputted ASCII art is kinda similar to your drawing.
 
+after saving your .bmp file to the specified directory, do
+
+```bash
+python3 bmp_to_bin.py YOUR_BMP
+```
+
+This will create the binary file which will be passed to the neural net.
+
 > [!WARNING]
 > Make sure that your bmp image is 28 x 28 and that the *bit depth* is 24 (google: microsoft paint bmp bit depth 24), otherwise the script will write garbage.
+
+## Usage
+
+clone the repo
+
+```bash
+git clone https://github.com/HsHs-dev/RISCV-ANN.git
+```
+
+cd into it
+
+```bash
+cd RISCV-ANN
+```
+
+then run the venus jar on your input as follows:
+
+```bash
+java -jar venus.jar src/main.s -ms -1 -it inputs/mnist/bin/m0.bin inputs/mnist/bin/m1.bin inputs/mnist/student_inputs/<YOUR_INPUT>.bin outputs/test_mnist_main/student_input_mnist_output.bin 2>/dev/null
+```
+
+The classified number will appear
+
 
 ## Self Opinion
 
