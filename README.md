@@ -20,4 +20,3 @@ Then use the provided `bmp_to_bin.py` python script to convert your bmp to bin f
 
 > [!WARNING]
 > Make sure that your bmp image is 28 x 28 and that the *bit depth* is 24 (google: microsoft paint bmp bit depth 24), otherwise the script will write garbage
-
