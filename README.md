@@ -6,7 +6,7 @@ This repo houses the material for UCB CS61C course Project 2: Building a classif
 
 * Part A: Mathematical Functions: These include a **dot product**, **matrix multiplication**, an **element-wise rectifier function (ReLU)**, and an **argmax** function for vectors.
 
-* Part B: Part B: File Operations and Main: This includes functions to read matrices from and write matrices to binary files. Then you will combine all individual functions to run a pre-trained MNIST digit classifier.
+* Part B: File Operations and Main: This includes functions to read matrices from and write matrices to binary files. Then you will combine all individual functions to run a pre-trained MNIST digit classifier.
 
 ## Project Layout
 
