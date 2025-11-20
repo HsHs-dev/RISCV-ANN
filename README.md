@@ -20,3 +20,7 @@ Then use the provided `bmp_to_bin.py` python script to convert your bmp to bin f
 
 > [!WARNING]
 > Make sure that your bmp image is 28 x 28 and that the *bit depth* is 24 (google: microsoft paint bmp bit depth 24), otherwise the script will write garbage
+
+## Self Opinion
+
+This project was a great add to my knowledge regrading assembly (especially RISC-V) and to my view of computer architecture. When you write alot of assembly you really understand how the memory is laid down, how pointers and pointer arithmetic works, and how all the sophisticated functions that *C* give us for granted works. If there is one thing that I will take home from this project, is that I will never pass the wrong number of bytes to `malloc` when writing C again
